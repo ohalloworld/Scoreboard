@@ -83,7 +83,7 @@ document.querySelectorAll(".con").forEach(item => {
 //function to start, track and run the Sin Bin clock (10 minutes)
 document.querySelectorAll(".SB").forEach(item => {
     item.addEventListener("click", function() {
-        const tableRef = document.getElementById("sb-clocks");
+        let tableRef = document.getElementById("sb-clocks");
         let newRow = tableRef.insertRow(-1);
         let teamCell = newRow.insertCell(0);
         let clockCell = newRow.insertCell(-1);
