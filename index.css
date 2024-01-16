@@ -1,0 +1,144 @@
+@font-face {
+    font-family: timer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    background-color: #002244;
+
+}
+
+
+#away-score, #home-score {
+    text-align: center;
+    min-width: 180px;
+    min-height: 110px;
+    font-size: 90px;
+    color: oldlace;
+    font-family: timer;
+    margin: 5px;
+    background-size: 50px 50px;
+    background-image:
+      linear-gradient(to right, white 1px, transparent 1px),
+      linear-gradient(to bottom, white 1px, transparent 1px);
+    background-color: black;
+}
+
+.score-icons {
+    font-size: 16px;
+    font-weight: bold;
+    border: white 2px solid;
+    display: inline-flex;
+    max-height: 15%;
+    min-height: 5%;
+    min-width: 5%;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+
+}
+
+.btns {
+    border-radius: 10px;
+    background-color: green;
+    color: oldlace;
+    font-size: 20px;
+}
+
+.score-btn {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: oldlace;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#home, #away {
+    background-color: transparent;
+    margin: 20px 0 20px 0;
+}
+
+#homeRC, #awayRC {
+    background-color: red;
+}
+
+#homeSB, #awaySB {
+    background-color: yellow;
+}
+
+#homeBP, #awayBP {
+    background-color: lightblue;
+}
+
+#newGame {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 0;
+    background-color: green;
+    font-size: 20px;
+}
+
+#clock {
+    border: slategray 2px solid;
+    width: 100%;
+    position: relative;
+    border-radius: 10%;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#middle-console {
+    max-width: 200px;
+    min-width: 30%;
+    margin-top: 10px;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+}
+
+#sb-clocks {
+    background-color: white;
+    width: 100%;
+    margin-top: 5px;
+
+}
+
+.heading, td {
+    border: 1px black solid;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+.heading {
+    font-size: 20px;
+}
+
+
+#new-half {
+    background-color: green;
+    padding: 5px;
+    font-size: 20px;
+}

@@ -1,0 +1,52 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="scoreboard">
+            <div id="home" class="team-info">
+                <h3 id="homeName">HOME</h3>
+                <div class="score">
+                    <div id="homeBP" class="score-icons">Bonus Point</div>
+                    <button id="homeSB" class="score-icons SB">Sin Bin</button>
+                    <button id="homeRC" class="score-icons RC">Red Card</button>
+                    <div id="home-score"></div>   
+                </div>
+                <div class="score-btn">
+                    <button id="home-try" class="btns try">Try</button>
+                    <button id="home-DG" class="btns DG">3 Points</button>
+                    <button class="btns con">Conversion</button>
+                </div> 
+            </div>
+
+            <div id="middle-console">
+                <button class="btns" id="start">KICK OFF:</button>
+                <div id="clock"></div>
+                <button class="btns" id="newGame">NEW GAME</button>
+                <table id="sb-clocks">
+                    <tr>
+                        <th id="sb-team-name" class="heading">Team Name</th>
+                        <th class="heading" id="sb-clock">Clock</th>
+                    </tr>
+                </table>
+            </div>
+                
+
+            <div id="away" class="team-info">
+                <h3 id="awayName">GUEST</h3>
+                <div class="score">
+                    <div id="awayBP" class="score-icons">Bonus Point</div>
+                    <button id="awaySB" class="score-icons SB">Sin Bin</button>
+                    <button id="awayRC" class="score-icons RC">Red Card</button>
+                    <div id="away-score"></div>
+                </div>
+                <div class="score-btn">
+                    <button id="away-try" class="btns try">Try</button>
+                    <button id="away-DG" class="btns DG">3 Points</button>
+                    <button class="btns con">Conversion</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
